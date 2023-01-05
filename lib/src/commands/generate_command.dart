@@ -1,14 +1,14 @@
 // ignore_for_file: cascade_invocations, use_if_null_to_convert_nulls_to_bools
 
 import 'package:args/command_runner.dart';
-import 'package:changelog_cli/src/model/model.dart';
-import 'package:changelog_cli/src/printers/printers.dart';
+import 'package:git_changelogger/src/model/model.dart';
+import 'package:git_changelogger/src/printers/printers.dart';
 import 'package:conventional_commit/conventional_commit.dart';
 import 'package:git/git.dart';
 import 'package:mason_logger/mason_logger.dart';
 
 /// {@template generate_command}
-/// `changelog_cli generate`
+/// `git_changelogger generate`
 ///
 /// A [Command] to generate a changelog
 /// {@endtemplate}

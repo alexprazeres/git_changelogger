@@ -7,9 +7,9 @@
 
 import 'dart:io';
 
-import 'package:changelog_cli/src/command_runner.dart';
-import 'package:changelog_cli/src/commands/commands.dart';
-import 'package:changelog_cli/src/version.dart';
+import 'package:git_changelogger/src/command_runner.dart';
+import 'package:git_changelogger/src/commands/commands.dart';
+import 'package:git_changelogger/src/version.dart';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:pub_updater/pub_updater.dart';

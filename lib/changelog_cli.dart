@@ -5,13 +5,13 @@
 // license that can be found in the LICENSE file or at
 // https://opensource.org/licenses/MIT.
 
-/// changelog_cli, A Very Good Project created by Very Good CLI.
+/// git_changelogger, A Very Good Project created by Very Good CLI.
 ///
 /// ```sh
-/// # activate changelog_cli
-/// dart pub global activate changelog_cli
+/// # activate git_changelogger
+/// dart pub global activate git_changelogger
 ///
 /// # see usage
-/// changelog_cli --help
+/// git_changelogger --help
 /// ```
-library changelog_cli;
+library git_changelogger;

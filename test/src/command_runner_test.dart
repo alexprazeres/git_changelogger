@@ -6,8 +6,8 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:args/command_runner.dart';
-import 'package:changelog_cli/src/command_runner.dart';
-import 'package:changelog_cli/src/version.dart';
+import 'package:git_changelogger/src/command_runner.dart';
+import 'package:git_changelogger/src/version.dart';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:pub_updater/pub_updater.dart';
@@ -83,8 +83,7 @@ void main() {
       verifyNever(() => logger.info(updatePrompt));
     });
 
-    test('can be instantiated without an explicit analytics/logger instance',
-        () {
+    test('can be instantiated without an explicit analytics/logger instance', () {
       final commandRunner = ChangelogCliCommandRunner();
       expect(commandRunner, isNotNull);
     });

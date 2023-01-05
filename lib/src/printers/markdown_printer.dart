@@ -1,7 +1,7 @@
 // ignore_for_file: cascade_invocations
 
-import 'package:changelog_cli/src/model/changelog_entry.dart';
-import 'package:changelog_cli/src/printers/printers.dart';
+import 'package:git_changelogger/src/model/changelog_entry.dart';
+import 'package:git_changelogger/src/printers/printers.dart';
 import 'package:collection/collection.dart';
 
 class MarkdownPrinter extends Printer {

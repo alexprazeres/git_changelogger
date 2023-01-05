@@ -1,11 +1,11 @@
 
 
-## BASED ON [changelog_cli](https://github.com/orestesgaolin/dart_utilities/tree/main/changelog_cli)
+## BASED ON [git_changelogger](https://github.com/orestesgaolin/dart_utilities/tree/main/git_changelogger)
 WITH MY OWN CHANGES
 
 CLI to generate an opinionated changelog.
 
-<img src="https://raw.githubusercontent.com/orestesgaolin/dart_utilities/main/changelog_cli/example/screenshots/changelog_cli.png?token=GHSAT0AAAAAABWNHNTSBEDP4XHYYR5P6SSSY3GKMBQ" alt="Example usage screenshot" width="600">
+<img src="https://raw.githubusercontent.com/orestesgaolin/dart_utilities/main/git_changelogger/example/screenshots/git_changelogger.png?token=GHSAT0AAAAAABWNHNTSBEDP4XHYYR5P6SSSY3GKMBQ" alt="Example usage screenshot" width="600">
 
 By default it just generates the changelog based on the whole git history. You can pass custom `--start` and `--end` parameters which are git refs to get a subset of changes between two commits or tags. That was my main goal with this CLI as it doesn't necessarily require semantic versioning.
 
@@ -16,7 +16,7 @@ By default it just generates the changelog based on the whole git history. You c
 If the CLI application is available on [pub](https://pub.dev), activate globally via:
 
 ```sh
-dart pub global activate changelog_cli
+dart pub global activate git_changelogger
 ```
 
 Or locally via:
@@ -28,17 +28,17 @@ dart pub global activate --source=path <path to this package>
 ## Usage
 
 ```sh
-changelog_cli generate
+git_changelogger generate
 
 # or
-changelog_cli generate --path ~/Projects/my-app --start 1.0.0 --end 1.1.0 --version 1.1.0 --limit 2000 --printer markdown
+git_changelogger generate --path ~/Projects/my-app --start 1.0.0 --end 1.1.0 --version 1.1.0 --limit 2000 --printer markdown
 ```
 
-You can get the previous tag using git command and then pass it to `changelog_cli`:
+You can get the previous tag using git command and then pass it to `git_changelogger`:
 
 ```sh
 git describe --tags --abbrev=0
-changelog_cli generate --start changelog_cli-v0.0.2
+git_changelogger generate --start git_changelogger-v0.0.2
 ```
 
 ## Running Tests with coverage 🧪

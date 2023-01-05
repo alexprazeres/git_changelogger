@@ -10,24 +10,24 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
-import 'package:changelog_cli/src/commands/commands.dart';
-import 'package:changelog_cli/src/version.dart';
+import 'package:git_changelogger/src/commands/commands.dart';
+import 'package:git_changelogger/src/version.dart';
 import 'package:mason_logger/mason_logger.dart';
 import 'package:pub_updater/pub_updater.dart';
 
-const executableName = 'changelog_cli';
-const packageName = 'changelog_cli';
+const executableName = 'git_changelogger';
+const packageName = 'git_changelogger';
 const description = 'Command line to generate changelogs';
 
-/// {@template changelog_cli_command_runner}
+/// {@template git_changelogger_command_runner}
 /// A [CommandRunner] for the CLI.
 ///
 /// ```
-/// $ changelog_cli --version
+/// $ git_changelogger --version
 /// ```
 /// {@endtemplate}
 class ChangelogCliCommandRunner extends CommandRunner<int> {
-  /// {@macro changelog_cli_command_runner}
+  /// {@macro git_changelogger_command_runner}
   ChangelogCliCommandRunner({
     Logger? logger,
     PubUpdater? pubUpdater,

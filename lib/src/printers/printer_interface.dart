@@ -1,4 +1,4 @@
-import 'package:changelog_cli/src/model/model.dart';
+import 'package:git_changelogger/src/model/model.dart';
 
 // ignore: one_member_abstracts
 abstract class Printer {

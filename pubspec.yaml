@@ -1,10 +1,10 @@
-name: changelog_cli
+name: git_changelogger
 description: Simple CLI to generate basic changelog for your project using conventional commits
-version: 0.0.6+1
-repository: https://github.com/orestesgaolin/dart_utilities/tree/main/changelog_cli
+version: 1.0.1+1
+repository: https://github.com/alexprazeres/git_changelogger
 screenshots:
-  - description: "Example usage of the changelog_cli"
-    path: example/screenshots/changelog_cli.png
+  - description: "Example usage of the git_changelogger"
+    path: example/screenshots/git_changelogger.png
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
@@ -28,4 +28,4 @@ dev_dependencies:
   very_good_analysis: ^3.1.0
 
 executables:
-  changelog_cli:
+  git_changelogger:

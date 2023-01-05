@@ -76,4 +76,4 @@
 
 - add limit option
 - add simple printer
-- add initial implementation of the changelog_cli
+- add initial implementation of the git_changelogger
