@@ -35,8 +35,17 @@ class GenerateCommand extends Command<int> {
       defaultsTo: [
         'feat',
         'fix',
-        'refactor',
         'perf',
+        'refactor',
+        'test',
+        'docs',
+        'chore',
+        'added',
+        'changed',
+        'deprecated',
+        'removed',
+        'fixed',
+        'security'
       ],
     );
     argParser.addOption(

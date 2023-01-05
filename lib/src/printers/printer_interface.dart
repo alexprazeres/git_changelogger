@@ -10,13 +10,17 @@ abstract class Printer {
 }
 
 const mapping = {
-  'feat': 'Features',
-  'fix': 'Bug Fixes',
-  'perf': 'Performance Improvements',
-  'refactor': 'Refactor',
+  'feat': 'Funcionalidades',
+  'fix': 'Correções de bug',
+  'perf': 'Melhorias de perfomance',
+  'refactor': 'Refatorado',
   'test': 'Tests',
-  'docs': 'Documentation',
+  'docs': 'Documentação',
   'chore': 'Chores',
-  'build': 'Build System',
-  'ci': 'CI',
+  'added': 'Adicionado',
+  'changed': 'Alterado',
+  'deprecated': 'Descontinuado',
+  'removed': 'Removido',
+  'fixed': 'Corrigido',
+  'security': 'Segurança'
 };

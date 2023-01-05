@@ -18,7 +18,7 @@ class MarkdownPrinter extends Printer {
     if (version != null && version.isNotEmpty) {
       buffer.writeln('## $version');
     } else {
-      buffer.writeln('## Changes');
+      buffer.writeln('## Mudanças');
     }
     buffer.writeln();
 
