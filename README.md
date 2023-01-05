@@ -13,16 +13,9 @@ By default it just generates the changelog based on the whole git history. You c
 
 ## Getting Started 🚀
 
-If the CLI application is available on [pub](https://pub.dev), activate globally via:
 
 ```sh
-dart pub global activate git_changelogger
-```
-
-Or locally via:
-
-```sh
-dart pub global activate --source=path <path to this package>
+dart pub global activate --source git https://github.com/alexprazeres/git_changelogger
 ```
 
 ## Usage
