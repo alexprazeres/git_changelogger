@@ -22,5 +22,11 @@ const mapping = {
   'deprecated': 'Descontinuado',
   'removed': 'Removido',
   'fixed': 'Corrigido',
-  'security': 'Segurança'
+  'security': 'Segurança',
+  'adicionado': 'Adicionado',
+  'alterado': 'Alterado',
+  'descontinuado': 'Descontinuado',
+  'removido': 'Removido',
+  'corrigido': 'Corrigido',
+  'seguranca': 'Segurança'
 };

@@ -45,7 +45,13 @@ class GenerateCommand extends Command<int> {
         'deprecated',
         'removed',
         'fixed',
-        'security'
+        'security',
+        'adicionado',
+        'alterado',
+        'descontinuado',
+        'removido',
+        'corrigido',
+        'seguranca'
       ],
     );
     argParser.addOption(

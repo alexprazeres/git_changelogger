@@ -1,6 +1,6 @@
 name: git_changelogger
 description: Simple CLI to generate basic changelog for your project using conventional commits
-version: 1.0.2+102
+version: 1.0.4+104
 repository: https://github.com/alexprazeres/git_changelogger
 screenshots:
   - description: "Example usage of the git_changelogger"
